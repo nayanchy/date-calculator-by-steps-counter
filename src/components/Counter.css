@@ -1,0 +1,28 @@
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.counter-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 300px;
+  border: 1px solid #ec8f5e;
+  border-radius: 5px;
+}
+.insideBtn {
+  min-width: 100px;
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+}
+
+.specialBtn {
+  background-color: #ec8f5e;
+  width: 200px;
+  text-align: center;
+  margin-bottom: 20px;
+}
